@@ -1,0 +1,66 @@
+
+
+center {
+    margin-top: 30px;
+}
+
+div.container {
+    width: 25%;
+    background-color: lightgrey;
+    padding-top:20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 5px solid
+    gray;
+    border-right: 5px solid
+    gray;
+}
+
+div#display {
+    border: 1px solid grey;
+    background-color: white;
+    height: 30px;
+    margin: 5px 30px;
+}
+
+p#output {
+    margin-top:8px;
+    float: right;
+    margin-right:8px;
+    margin-bottom: 0px;
+}
+
+div#button-grid {
+    height: auto;
+    margin: 10px 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+
+button {
+    font-size: 15px;
+    margin:5px 5px 10px 5px;
+    width:42px;
+    flex: 1 1 42px;
+    border-radius: 6px;
+}
+
+button#delete, button#clear {
+    background-color: darkred;
+    color: white;
+}
+
+button.operator, button.execute {
+    background-color: darkorange;
+}
+
+button.clicked {
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 1px solid #919191;
+    border-left: 1px solid #919191;
+}
